@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+  <libro id="1">
+    <isbn>123456789</isbn>
+    <titulo>Libro 1</titulo>
+    <year>2021</year>
+    <editorial id="100">Editorial 1</editorial>
+    <autores>
+      <autor id="1">Autor 1 null</autor>
+      <autor id="2">Autor 2 null</autor>
+    </autores>
+    <tematica id="100">Tematica 1</tematica>
+  </libro>
+  <libro id="1">
+    <isbn>123456789</isbn>
+    <titulo>Libro 1</titulo>
+    <year>2021</year>
+    <editorial id="100">Editorial 1</editorial>
+    <autores>
+      <autor id="1">Autor 1 null</autor>
+      <autor id="2">Autor 2 null</autor>
+    </autores>
+    <tematica id="100">Tematica 1</tematica>
+  </libro>
+  <libro id="1">
+    <isbn>123456789</isbn>
+    <titulo>Libro 1</titulo>
+    <year>2021</year>
+    <editorial id="100">Editorial 1</editorial>
+    <autores>
+      <autor id="1">Autor 1 null</autor>
+      <autor id="2">Autor 2 null</autor>
+    </autores>
+    <tematica id="100">Tematica 1</tematica>
+  </libro>
+  <libro id="1">
+    <isbn>123456789</isbn>
+    <titulo>Libro 1</titulo>
+    <year>2021</year>
+    <editorial id="100">Editorial 1</editorial>
+    <autores>
+      <autor id="1">Autor 1 null</autor>
+      <autor id="2">Autor 2 null</autor>
+    </autores>
+    <tematica id="100">Tematica 1</tematica>
+  </libro>
+</libros>

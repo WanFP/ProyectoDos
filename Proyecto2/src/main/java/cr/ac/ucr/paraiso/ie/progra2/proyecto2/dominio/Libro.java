@@ -10,6 +10,7 @@ public class Libro {
     private int year;
     private Editorial editorial;
     private List<Autor> autores;
+    private Tematica tematica;
     
     public Libro() {
     }
@@ -68,6 +69,14 @@ public class Libro {
 
     public void setAutores(List<Autor> autores) {
         this.autores = autores;
+    }
+
+    public Tematica getTematica() {
+        return tematica;
+    }
+
+    public void setTematica(Tematica tematica) {
+        this.tematica = tematica;
     }
     
     

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editoriales>
+  <editorial id="100">
+    <nombre>Editorial 1</nombre>
+  </editorial>
+  <editorial id="200">
+    <nombre>Editorial 2</nombre>
+  </editorial>
+  <editorial id="300">
+    <nombre>Editorial 3</nombre>
+  </editorial>
+</editoriales>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tematicas>
+  <tematica id="100">
+    <nombre>Tematica 1</nombre>
+  </tematica>
+  <tematica id="200">
+    <nombre>Tematica 2</nombre>
+  </tematica>
+  <tematica id="300">
+    <nombre>Tematica 3</nombre>
+  </tematica>
+</tematicas>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autores>
+  <autor id="100">
+    <nombre>Autor 1</nombre>
+    <apellido>Apellido 1</apellido>
+  </autor>
+  <autor id="200">
+    <nombre>Autor 2</nombre>
+    <apellido>Apellido 2</apellido>
+  </autor>
+  <autor id="300">
+    <nombre>Autor 3</nombre>
+    <apellido>Apellido 3</apellido>
+  </autor>
+</autores>

@@ -1,22 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Cookies</title>
-  <style>
-    p {
-        text-align: center;
-        font-family: Arial, sans-serif;
-    }
-  </style>
-</head>
-<body>
-<h1><p style="color:blue">Login utilizando HttpSession</p></h1>
+    <head>
+        <meta charset="UTF-8">
+        <title>Biblioteca HDZ</title>
+        <style>
+            body {
+                background-color: whitesmoke;
+            }
 
-<p><a href="Proyecto2/libros" style="font-family: Arial, sans-serif;">Insertar Libro</a></p>
-<p><a href="Proyecto2/editoriales" style="font-family: Arial, sans-serif;">Insertar Editorial</a></p>
-<p><a href="Proyecto2/autores" style="font-family: Arial, sans-serif;">Insertar Autor</a></p>
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
 
+            .container h1 {
+                font-size: 32px;
+                font-family: 'Arial Black', sans-serif;
+                color: black;
+                margin-bottom: 20px;
+            }
 
-</body>
+            .container .logo {
+                margin-bottom: 20px;
+            }
+
+            .container .button-group {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin-top: 20px;
+            }
+
+            .container button {
+                font-family: Arial, sans-serif;
+                font-size: 18px;
+                color: white;
+                background-color: black;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                margin: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Biblioteca HDZ</h1>
+            <img class="logo" src="1.jpg" alt="Logo de la biblioteca" width="600">
+            <div class="button-group">
+                <button onclick="location.href = 'insertar_libro.jsp'">Insertar Libro</button>
+                <button onclick="location.href = 'insertar_editorial.jsp'">Insertar Editorial</button>
+                <button onclick="location.href = 'insertar_autor.jsp'">Insertar Autor</button>
+                <button onclick="location.href = 'insertar_tematica.jsp'">Insertar Tematica</button>
+                <button onclick="location.href = 'registro_libros.jsp'">Registro de Libros</button>
+            </div>
+        </div>
+    </body>
 </html>
